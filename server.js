@@ -1,6 +1,6 @@
 const express = require('express') //import libary 
 const app = express() //write down in object
-const port = 3000
+const port = process.env.PORT || 3000
 
 var player1 = null;
 var player2 = null;
